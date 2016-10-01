@@ -9,7 +9,7 @@ var invalidFileRegex = /^[.\/\\]|\.\./;
         
 var server = http.createServer(function(req, res){
         
-        if(req.method = "POST"){
+        if(req.method == "POST"){
                 handlePost(req, res);
                 return;
         }
