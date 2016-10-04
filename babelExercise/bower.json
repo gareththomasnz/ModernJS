@@ -1,0 +1,21 @@
+{
+  "name": "babelexercise",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "gareththomasnz <gareththomasnz@yahoo.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/gareththomasnz/ModernJS",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1"
+  }
+}

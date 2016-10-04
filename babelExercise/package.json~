@@ -1,0 +1,24 @@
+{
+  "name": "babelexercise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "scripts": "babel src-scripts --source-maps-inline --out-dir public/scripts",
+    "scripts:watch": "babel src-scripts --watch --source-maps-inline --out-dir public/scripts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-cli": "^6.16.0",
+    "babel-preset-latest": "^6.16.0",
+    "install": "^0.8.1"
+  },
+  "babel": {
+    "presets": {
+      "es2015"
+    }
+  }
+}
+
