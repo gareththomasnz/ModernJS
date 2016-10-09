@@ -13,3 +13,4 @@ var Person = function Person(name) {
 var person1 = new Person("Whoa");
 
 console.log([blah, person1]);
+//# sourceMappingURL=application.js.map

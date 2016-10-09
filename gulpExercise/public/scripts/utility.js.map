@@ -1,0 +1,1 @@
+{"version":3,"sources":["utility.js"],"names":["Thing"],"mappings":";;;;;;IAAMA,K;;;;;;;wCACS;AACC,+BAAO,MAAP;AACP","file":"utility.js","sourcesContent":["class Thing{\n        stuff(){\n                return \"Kewl\";\n        }\n}"],"sourceRoot":"/source/"}

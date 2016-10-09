@@ -1,3 +1,6 @@
+body {
+  background: red;
+}
 body .test {
-  color: red;
+  color: blue;
 }
