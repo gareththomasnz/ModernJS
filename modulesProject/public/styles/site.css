@@ -1,0 +1,11 @@
+@page .width: 400px;
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #1E1E1E;
+  color: #C8C8C8;
+  font-family: Verdana, arial;
+}

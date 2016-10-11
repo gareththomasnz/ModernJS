@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Modules Application</title>
+    <link rel="stylesheet" href="/styles/site.css">
+    <link rel="stylesheet" href="/lib/jquery-ui/themes/ui-darkness/jquery-ui.css">
+</head>
+
+<body>
+
+<div id="mount">
+    <div class="users-controller">
+        <h1>Da Page</h1>
+        <ul>
+            <li>User 1</li>
+            <li>User 2</li>
+            <li>User 3</li>
+        </ul>
+        <a href="#" class="add-user">Add User</a>
+    </div>
+</div>
+
+
+<script src="/lib/requirejs/require.js"></script>
+<script src="/config.js"></script>
+<script>
+    requirejs(["application"]);
+</script>
+</body>
+</html>
